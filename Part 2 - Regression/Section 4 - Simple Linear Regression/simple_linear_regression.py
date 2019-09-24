@@ -57,6 +57,9 @@ plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
 
+#Shows different types of Loss difference 
+#between predicted result and known result
+
 mse = mean_squared_error(y_test, y_pred)
 mae = mean_absolute_error(y_test, y_pred)
 evs = explained_variance_score(y_test, y_pred) 
